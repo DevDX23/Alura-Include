@@ -8,4 +8,6 @@ let mensagemDeErro = "Erro! Preencha todos os dados"
 alert(mensagemDeErro)
 nome = prompt("Digite seu nome: ")
 idade = prompt("Digite sua idade: ")
-if
+if(idade >= 18){
+    alert("Pode tirar habilitação")
+}
